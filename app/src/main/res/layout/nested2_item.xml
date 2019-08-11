@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4dp"
+    app:cardCornerRadius="4dp">
+
+
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:layout_margin="4dp"
+        android:background="#00BCD4">
+
+        <!--<TextView-->
+        <!--android:id="@+id/txt_view1_nest2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="12" />-->
+
+        <ImageView
+            android:id="@+id/img_view1_nest2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/txt_view2_nest2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@id/img_view1_nest2"
+            android:text="Line 1"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!--<ImageView-->
+        <!--android:id="@+id/img_view2_nest2"-->
+        <!--android:layout_width="25dp"-->
+        <!--android:layout_height="25dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:src="@drawable/ic_delete" />-->
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
